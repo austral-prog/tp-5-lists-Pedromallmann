@@ -10,4 +10,6 @@ def list_length(lista):
     Returns:
         Un entero con la cantidad de elementos
     """
-    pass  # Reemplazar con tu implementación
+    return len(lista)
+print(list_length([1,2,3,4,5]))
+print(list_length([1,2,3]))
